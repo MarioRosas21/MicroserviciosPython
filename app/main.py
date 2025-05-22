@@ -35,7 +35,6 @@ from fastapi import FastAPI, HTTPException
 from app.models.usuario import Usuario
 from app.db import get_connection
 
-app = FastAPI()
 
 # DELETE por ID
 @app.delete("/usuarios/id/{user_id}")
